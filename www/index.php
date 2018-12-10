@@ -10,7 +10,7 @@
 			
 		}
 		else {
-			echo '<p>You are logged out!</p>';
+		//	echo '<p>You are logged out!</p>';
 		};
 		?>
 
