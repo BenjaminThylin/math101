@@ -15,7 +15,7 @@ if (!mysqli_stmt_prepare($stmt, $sql)) {
 
 	// Ouput mathsubject info
 	while($row = mysqli_fetch_assoc($result)) {
-		echo '<h2>' . $row['title'] . '</h2>';
+		echo '<h2 class="title">' . $row['title'] . '</h2>';
 		include 'includes/' . $row['title'] . '.php';
 		echo '<br>';
     	echo $row['theory'];

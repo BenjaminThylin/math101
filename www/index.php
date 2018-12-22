@@ -6,7 +6,7 @@
 
 		<?php  
 		if (isset($_SESSION['userId'])) {
-			echo '<p>You are logged in!</p>';
+		//	echo '<p>You are logged in!</p>';
 			
 		}
 		else {
@@ -17,7 +17,7 @@
 		<!-- Main Content -->
 		<div id="main-content">
 		  <div class="row">
-		    <div class="col-md-2">
+		    <div class="col-md-1.5">
 		      	<div id="sidemenu">
 					<?php require "sidemenu.php" ?>
 				</div>

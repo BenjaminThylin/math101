@@ -1,9 +1,9 @@
 <html>
 <body>
 
-<input id="a" type="text"> +
-<input id="b" type="text">
-<input id="answer" type="text">
+<input class="mathinputfield" id="a" type="text"> +
+<input class="mathinputfield" id="b" type="text"> = 
+<input class="mathinputfield" id="answer" type="text">
     <script>
     document.getElementById("a").addEventListener("keyup", myFunction);
     document.getElementById("b").addEventListener("keyup", myFunction);
