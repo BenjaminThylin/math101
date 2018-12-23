@@ -38,10 +38,12 @@ img#logo {
     text-align: center;
     padding: 5px;
     font-weight: bold;
+    font-size: 120%;
 }
 
 .mathinputfield {
     margin: 3px;
+    width: 28%;
     font-size: 120%;
     border-radius: 3px;
     border-style: solid black;
@@ -52,7 +54,8 @@ img#logo {
 /* Mobile */
 @media screen and (max-width: 576px) {
 	.psw-input {
-		margin-top: 10px;
+        margin-top: 10px;
+        font-size: 100%;
 	}
 }
 
