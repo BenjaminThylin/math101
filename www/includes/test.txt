@@ -1,0 +1,44 @@
+
+
+var bar = {
+    namne: "pelle",
+    fru: "sabian"
+}
+
+
+function foo(etto_objekt) {
+   alert(ett_object.namn)
+}
+
+
+foo(bar)
+
+foo({
+    namn:"petter",
+    fru: "greta"
+})
+
+
+
+
+
+<script src="test.php?callback=foo&mamm=ingeborg"></script>
+
+---------------------------------
+
+ <?php 
+echo $_GET["callback"] . "(";
+echo "{
+    namn:'".$_GET["mamm"]."',
+    fru: 'greta'
+}";
+echo ")";
+
+echo $_GET
+
+?>
+
+------
+
+
+---------------------------------

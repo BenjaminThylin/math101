@@ -22,7 +22,7 @@
 						<?php require "sidemenu.php" ?>
 					</div>
 				</div>
-		    <div id="mathsubject_info" class="col-md-7"></div>
+		    <div id="mathsubject_info" class="col-md-8"></div>
 				<div id="sidecalc" class="col-md-3.5">
 					<?php require "sidecalc/sidecalc.html" ?>
 				</div>
