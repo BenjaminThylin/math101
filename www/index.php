@@ -24,7 +24,10 @@
 				</div>
 		    <div id="mathsubject_info" class="col-md-8"></div>
 				<div id="sidecalc" class="col-md-3.5">
-					<?php require "sidecalc/sidecalc.html" ?>
+					<?php 	
+					if (isset($_SESSION['userId'])) {
+						 require "sidecalc/sidecalc.html";
+						 } ?>
 				</div>
 		  </div>
 		</div>
