@@ -70,3 +70,14 @@
     color: black;
     cursor: pointer;
 }
+
+select.form-control.form-control-sm {
+    padding-bottom: 0px;
+    padding-top: 0px;
+    height: 25px;
+    background-color: gray;
+    font-weight: bold;
+    width: 202px;
+    margin: 0 auto;
+    text-decoration: none;
+}

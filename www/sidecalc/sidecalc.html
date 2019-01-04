@@ -1,9 +1,12 @@
 
 <div class="sidecalc">
 <div id="sidecalcmain" class="sidecalcmain">
-<form name="sidecalcform">
+<form name="sidecalcform" onsubmit="equal()">
 <p id="ctc" class="ctc" onclick="copyToClipboard(textview)">Copy to clipboard</p>
-<input class="textview" name="textview">
+<input class="textview" name="textview" autocomplete="off">
+<select id="histdrop" class="form-control form-control-sm">
+    <option>History</option>
+  </select>
 </form>
 <table id="buttontable">
     <tr>
